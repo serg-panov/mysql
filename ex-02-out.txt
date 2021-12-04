@@ -1,0 +1,10 @@
+mysql> CREATE DATABASE IF NOT EXISTS example;
+Query OK, 1 row affected, 1 warning (0,00 sec)
+
+mysql> USE example;
+Database changed
+mysql> CREATE TABLE IF NOT EXISTS users (
+    -> id SERIAL,
+    -> name TEXT
+    -> );
+Query OK, 0 rows affected, 1 warning (0,00 sec)

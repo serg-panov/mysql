@@ -1,0 +1,3 @@
+mysqldump example > example-db-dump.sql
+mysql -e "CREATE DATABASE IF NOT EXISTS sample"
+mysql sample < example-db-dump.sql
